@@ -8,25 +8,74 @@
 import SwiftUI
 
 struct ContentView: View {
+    var emojis: [String] = [ "✈️" , "🪴" , "🐲" , "🐕"  , "🌵" , "🌳" , "🍄" , "🐚" , "🪵" , "🦫" , "🍰" , "🍫"]
+    
+    @State var emojiCount = 6
     
     var body: some View {
         
-        return HStack  {
+        return VStack {
+            HStack  {
+                
+                ForEach(emojis[0..<emojiCount] , id: \.self) { emoji in
+                    CardView(content: emoji)
+                }
+            }
+            HStack{
+               
+                remove
+                
+                Spacer()
+                
+                add
+                
+                
+            }
+            .font(.largeTitle)
+            .padding()
             
-            CardView(content: "✈️")
-            CardView(content: "🪴")
-            CardView(content: "🐲")
-            CardView(content: "🐕")
-            
+
         }
         .padding(.horizontal)
         .foregroundColor(.red)
+        
+    }
+    
+    
+    
+    var remove: some View {
+        
+        Button { if emojiCount > 1{
+                
+                emojiCount -= 1
+                
+            }
+                
+        } label: {
+            Image(systemName: "minus.circle")
+        }
+    }
+    
+    
+    var add: some View {
+        
+        Button{ if emojiCount < emojis.count{
+            
+                emojiCount += 1
+            
+            }
+            
+        } label: {
+            
+            Image(systemName: "plus.circle")
+        }
+        
     }
 }
 
 struct CardView:View{
     var content : String
-   @State var isFaceUp : Bool = true
+    @State var isFaceUp : Bool = true
     
     
     var body: some View{
@@ -38,9 +87,9 @@ struct CardView:View{
             if isFaceUp {
                 
                 shape.fill().foregroundColor(.white)
-            
+                
                 shape.stroke(lineWidth: 3)
-
+                
                 Text(content).font(.largeTitle)
                 
             }else{
@@ -78,7 +127,7 @@ struct ContentView_Previews: PreviewProvider {
             .preferredColorScheme(.dark)
         ContentView()
             .preferredColorScheme(.light)
-            
-            
+        
+        
     }
 }
