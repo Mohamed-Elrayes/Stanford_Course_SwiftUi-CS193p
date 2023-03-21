@@ -80,6 +80,8 @@ struct ContentView: View {
         }
         
     }
+    
+ 
 }
 
 struct CardView:View{
@@ -117,7 +119,11 @@ struct CardView:View{
 
 
 
+func m (ope:Double)->Double{
+    return ope * ope
+}
 
+let ff = m(ope: 20.0)
 
 
 
