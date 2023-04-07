@@ -9,7 +9,7 @@ import SwiftUI
 
 
 class EmojiMemoryGame : ObservableObject {
-    
+    typealias Card = MemoryGame<String>.Card
     
     @Published private var model : MemoryGame<String> = createMemoryGame()
     
@@ -23,13 +23,13 @@ class EmojiMemoryGame : ObservableObject {
         
     }
     
-    var cards : Array<MemoryGame<String>.Card> {
+    var cards : Array<Card> {
 
         return model.cards
         
     }
     
-    func choose(_ card: MemoryGame<String>.Card){
+    func choose(_ card: Card){
         model.choose(card)
       
     }
