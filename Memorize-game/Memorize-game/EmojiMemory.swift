@@ -8,18 +8,35 @@
 import SwiftUI
 
 
-class EmojiMemoryGame {
+class EmojiMemoryGame : ObservableObject {
     
-   static let emojis: [String] =  [ "✈️" , "🪴" , "🐲" , "🐕"  , "🌵" , "🌳" , "🍄" , "🐚" , "🪵" , "🦫" , "🍰" , "🍫" , "🍙"  , "🏆" , "🏝️" , "🧲"  , "💎" , "❇️" , "🔞"]
     
-    static func createMemoryGame()-> MemoryGame<String> {
+    @Published private var model : MemoryGame<String> = createMemoryGame()
+    
+   private static let emojis: [String] =  [ "✈️" , "🪴" , "🐲" , "🐕"  , "🌵" , "🌳" , "🍄" , "🐚" , "🪵" , "🦫" , "🍰" , "🍫" , "🍙"  , "🏆" , "🏝️" , "🧲"  , "💎" , "❇️" , "🔞", ]
+    
+    private static func createMemoryGame()-> MemoryGame<String> {
         
-        MemoryGame<String>(numberOfPairsOfCard: 4) {  index in emojis[index] }
+        return MemoryGame<String>( numberOfPairsOfCard: 4 , createCardContent: { index in
+           return  emojis[index]
+        })
         
     }
     
-    private(set) var model : MemoryGame<String> = createMemoryGame()
-       
+    var cards : Array<MemoryGame<String>.Card> {
+
+        return model.cards
+        
+    }
     
-    
+    func choose(_ card: MemoryGame<String>.Card){
+        model.choose(card)
+      
+    }
+}
+
+struct Previews_EmojiMemory_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
 }
