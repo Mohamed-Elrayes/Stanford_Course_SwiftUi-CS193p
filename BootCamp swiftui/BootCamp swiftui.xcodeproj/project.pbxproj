@@ -12,6 +12,7 @@
 		AB37EA7F29E0B2F2009800D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB37EA7E29E0B2F2009800D2 /* Assets.xcassets */; };
 		AB37EA8329E0B2F2009800D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB37EA8229E0B2F2009800D2 /* Preview Assets.xcassets */; };
 		AB37EA8A29E0B3A6009800D2 /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37EA8929E0B3A6009800D2 /* GradientsBootcamp.swift */; };
+		AB37EA8E29E0E8C6009800D2 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37EA8D29E0E8C6009800D2 /* IconsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AB37EA8029E0B2F2009800D2 /* BootCamp_swiftui.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BootCamp_swiftui.entitlements; sourceTree = "<group>"; };
 		AB37EA8229E0B2F2009800D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AB37EA8929E0B3A6009800D2 /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
+		AB37EA8D29E0E8C6009800D2 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +56,13 @@
 		AB37EA7929E0B2F1009800D2 /* BootCamp swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				AB37EA8929E0B3A6009800D2 /* GradientsBootcamp.swift */,
+				AB37EA8D29E0E8C6009800D2 /* IconsBootcamp.swift */,
 				AB37EA7A29E0B2F1009800D2 /* BootCamp_swiftuiApp.swift */,
 				AB37EA7C29E0B2F1009800D2 /* ContentView.swift */,
 				AB37EA7E29E0B2F2009800D2 /* Assets.xcassets */,
 				AB37EA8029E0B2F2009800D2 /* BootCamp_swiftui.entitlements */,
 				AB37EA8129E0B2F2009800D2 /* Preview Content */,
-				AB37EA8929E0B3A6009800D2 /* GradientsBootcamp.swift */,
 			);
 			path = "BootCamp swiftui";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				AB37EA8A29E0B3A6009800D2 /* GradientsBootcamp.swift in Sources */,
 				AB37EA7D29E0B2F1009800D2 /* ContentView.swift in Sources */,
 				AB37EA7B29E0B2F1009800D2 /* BootCamp_swiftuiApp.swift in Sources */,
+				AB37EA8E29E0E8C6009800D2 /* IconsBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
