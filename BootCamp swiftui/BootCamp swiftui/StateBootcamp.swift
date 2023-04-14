@@ -20,6 +20,7 @@ struct StateBootcamp: View {
             VStack {
                 Text(myTitle)
                     .font(.title)
+                
                 Text("Count: \(count)")
                     .font(.title)
                     .underline()
