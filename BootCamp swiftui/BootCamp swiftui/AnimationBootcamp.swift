@@ -21,18 +21,22 @@ struct AnimationBootcamp: View {
             RoundedRectangle(
                 cornerRadius: isAnimated ? 25 : 20
             )
-                .fill(
-                    isAnimated ? Color.red : Color.blue
-                )
-                .frame(
-                    width:
-                        isAnimated ? 50 : 100,
-                    height:
-                        isAnimated ? 50 : 100
-                )
-                .rotationEffect(Angle(degrees: isAnimated ? 360 : 0 ))
-                .offset(y: isAnimated ? 300 : 0)
-                .animation(.default)
+            .fill(
+                isAnimated ? Color.red : Color.blue
+            )
+            .frame(
+                width:
+                isAnimated ? 50 : 100,
+                height:
+                isAnimated ? 50 : 100
+            )
+            .rotationEffect(Angle(degrees: isAnimated ? 360 : 0))
+            .offset(y: isAnimated ? 300 : 0)
+            .animation(Animation
+                .easeInOut(duration: 1.5)
+                .repeatForever(autoreverses: true),
+                value: UUID()
+            )
         }
     }
 }
