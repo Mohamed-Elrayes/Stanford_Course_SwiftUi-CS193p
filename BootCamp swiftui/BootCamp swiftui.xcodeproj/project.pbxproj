@@ -31,6 +31,7 @@
 		ABC7129429E6C741006E3B6F /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7129329E6C741006E3B6F /* ForEachBootcamp.swift */; };
 		ABC7129629E6C9E4006E3B6F /* ScrollviewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7129529E6C9E4006E3B6F /* ScrollviewBootcamp.swift */; };
 		ABDBFF6729E752E900DABE9B /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBFF6629E752E900DABE9B /* GridBootcamp.swift */; };
+		ABF5A29D29EB63960036647E /* AnimationWithCurvesAndTweenBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A29C29EB63960036647E /* AnimationWithCurvesAndTweenBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		ABC7129329E6C741006E3B6F /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		ABC7129529E6C9E4006E3B6F /* ScrollviewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewBootcamp.swift; sourceTree = "<group>"; };
 		ABDBFF6629E752E900DABE9B /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
+		ABF5A29C29EB63960036647E /* AnimationWithCurvesAndTweenBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWithCurvesAndTweenBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				AB47226629E94D5600338F06 /* ConditionalBootcamp.swift */,
 				AB47226829E94F6B00338F06 /* TernaryOperatorsBootcamp.swift */,
 				AB47226A29E9512000338F06 /* AnimationBootcamp.swift */,
+				ABF5A29C29EB63960036647E /* AnimationWithCurvesAndTweenBootcamp.swift */,
 			);
 			path = "BootCamp swiftui";
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				AB37EA7B29E0B2F1009800D2 /* BootCamp_swiftuiApp.swift in Sources */,
 				AB47226929E94F6B00338F06 /* TernaryOperatorsBootcamp.swift in Sources */,
 				ABC7129629E6C9E4006E3B6F /* ScrollviewBootcamp.swift in Sources */,
+				ABF5A29D29EB63960036647E /* AnimationWithCurvesAndTweenBootcamp.swift in Sources */,
 				AB47226329E9404C00338F06 /* ExtraxtSubviewsBootcamp.swift in Sources */,
 				AB47226729E94D5600338F06 /* ConditionalBootcamp.swift in Sources */,
 				AB47226B29E9512000338F06 /* AnimationBootcamp.swift in Sources */,
