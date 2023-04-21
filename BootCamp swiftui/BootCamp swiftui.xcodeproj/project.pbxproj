@@ -25,6 +25,7 @@
 		AB61C62029ED45C000542FCE /* SheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61C61F29ED45C000542FCE /* SheetBootcamp.swift */; };
 		AB61C62229ED49A600542FCE /* PopViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61C62129ED49A600542FCE /* PopViewBootcamp.swift */; };
 		AB61C62429ED4DF000542FCE /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61C62329ED4DF000542FCE /* NavigationViewBootcamp.swift */; };
+		AB61C62629ED511D00542FCE /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB61C62529ED511D00542FCE /* ListBootcamp.swift */; };
 		AB62A69329E2431300E97765 /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62A69229E2431300E97765 /* StacksBootcamp.swift */; };
 		AB62A69529E2471B00E97765 /* PaddingAndSpacerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB62A69429E2471B00E97765 /* PaddingAndSpacerBootcamp.swift */; };
 		AB76A9B729E7FD6D003B31B1 /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76A9B629E7FD6D003B31B1 /* SafeAreaBootcamp.swift */; };
@@ -59,6 +60,7 @@
 		AB61C61F29ED45C000542FCE /* SheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetBootcamp.swift; sourceTree = "<group>"; };
 		AB61C62129ED49A600542FCE /* PopViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopViewBootcamp.swift; sourceTree = "<group>"; };
 		AB61C62329ED4DF000542FCE /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
+		AB61C62529ED511D00542FCE /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		AB62A69229E2431300E97765 /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
 		AB62A69429E2471B00E97765 /* PaddingAndSpacerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacerBootcamp.swift; sourceTree = "<group>"; };
 		AB76A9B629E7FD6D003B31B1 /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				AB61C61F29ED45C000542FCE /* SheetBootcamp.swift */,
 				AB61C62129ED49A600542FCE /* PopViewBootcamp.swift */,
 				AB61C62329ED4DF000542FCE /* NavigationViewBootcamp.swift */,
+				AB61C62529ED511D00542FCE /* ListBootcamp.swift */,
 			);
 			path = "BootCamp swiftui";
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				AB37EA7D29E0B2F1009800D2 /* ContentView.swift in Sources */,
 				AB61C62429ED4DF000542FCE /* NavigationViewBootcamp.swift in Sources */,
 				ABC7129229E6C388006E3B6F /* initBootcamp.swift in Sources */,
+				AB61C62629ED511D00542FCE /* ListBootcamp.swift in Sources */,
 				AB61C62029ED45C000542FCE /* SheetBootcamp.swift in Sources */,
 				AB37EA9429E0F16F009800D2 /* BackgroundAndOverlayBootcamp.swift in Sources */,
 				AB47226529E94AB900338F06 /* BindingBootcamp.swift in Sources */,
@@ -362,9 +366,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "BootCamp swiftui/BootCamp_swiftui.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BootCamp swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 966RPRKB3R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -377,13 +383,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moSalah.BootCamp-swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -398,9 +405,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "BootCamp swiftui/BootCamp_swiftui.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BootCamp swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 966RPRKB3R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -413,13 +422,14 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.moSalah.BootCamp-swiftui";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
