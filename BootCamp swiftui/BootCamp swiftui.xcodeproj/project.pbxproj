@@ -31,6 +31,7 @@
 		AB76A9B729E7FD6D003B31B1 /* SafeAreaBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76A9B629E7FD6D003B31B1 /* SafeAreaBootcamp.swift */; };
 		AB76A9B929E8029A003B31B1 /* ButtonsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76A9B829E8029A003B31B1 /* ButtonsBootcamp.swift */; };
 		AB76A9BB29E85EF1003B31B1 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB76A9BA29E85EF1003B31B1 /* StateBootcamp.swift */; };
+		ABB78C7029F2D94E00497689 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB78C6F29F2D94E00497689 /* AlertBootcamp.swift */; };
 		ABC7129229E6C388006E3B6F /* initBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7129129E6C388006E3B6F /* initBootcamp.swift */; };
 		ABC7129429E6C741006E3B6F /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7129329E6C741006E3B6F /* ForEachBootcamp.swift */; };
 		ABC7129629E6C9E4006E3B6F /* ScrollviewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7129529E6C9E4006E3B6F /* ScrollviewBootcamp.swift */; };
@@ -66,6 +67,7 @@
 		AB76A9B629E7FD6D003B31B1 /* SafeAreaBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaBootcamp.swift; sourceTree = "<group>"; };
 		AB76A9B829E8029A003B31B1 /* ButtonsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsBootcamp.swift; sourceTree = "<group>"; };
 		AB76A9BA29E85EF1003B31B1 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
+		ABB78C6F29F2D94E00497689 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		ABC7129129E6C388006E3B6F /* initBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initBootcamp.swift; sourceTree = "<group>"; };
 		ABC7129329E6C741006E3B6F /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		ABC7129529E6C9E4006E3B6F /* ScrollviewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewBootcamp.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				AB61C62129ED49A600542FCE /* PopViewBootcamp.swift */,
 				AB61C62329ED4DF000542FCE /* NavigationViewBootcamp.swift */,
 				AB61C62529ED511D00542FCE /* ListBootcamp.swift */,
+				ABB78C6F29F2D94E00497689 /* AlertBootcamp.swift */,
 			);
 			path = "BootCamp swiftui";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABB78C7029F2D94E00497689 /* AlertBootcamp.swift in Sources */,
 				AB37EA9029E0EA97009800D2 /* ImageBootcamp.swift in Sources */,
 				ABDBFF6729E752E900DABE9B /* GridBootcamp.swift in Sources */,
 				AB76A9B929E8029A003B31B1 /* ButtonsBootcamp.swift in Sources */,
