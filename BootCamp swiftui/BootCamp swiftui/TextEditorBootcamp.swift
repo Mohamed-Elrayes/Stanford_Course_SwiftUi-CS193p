@@ -12,22 +12,19 @@ struct TextEditorBootcamp: View {
     @State var saveText: String = ""
     var body: some View {
         NavigationView {
-            VStack{
-                TextEditor(text:$textEditorText )
-                
+            VStack {
+                TextEditor(text: $textEditorText)
+
                     .frame(height: 250)
                     .colorMultiply(.gray.opacity(0.3))
                     .cornerRadius(20).padding()
-                    
-                Button("save"){
+
+                Button("save") {
                     saveText = textEditorText
-                    
                 }
                 Text(saveText).padding()
                 Spacer()
-                
             }
-           
         }
         .padding()
         .background(.red)
