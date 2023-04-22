@@ -42,6 +42,7 @@
 		ABC7129629E6C9E4006E3B6F /* ScrollviewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7129529E6C9E4006E3B6F /* ScrollviewBootcamp.swift */; };
 		ABCDD9BC29F3F23B007F7208 /* VIewModelBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDD9BB29F3F23B007F7208 /* VIewModelBootcamp.swift */; };
 		ABCDD9BE29F3FC97007F7208 /* EnvironmentBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDD9BD29F3FC97007F7208 /* EnvironmentBootcamp.swift */; };
+		ABCDD9C029F40665007F7208 /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDD9BF29F40665007F7208 /* AppStorageBootcamp.swift */; };
 		ABDBFF6729E752E900DABE9B /* GridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDBFF6629E752E900DABE9B /* GridBootcamp.swift */; };
 		ABF5A29D29EB63960036647E /* AnimationWithCurvesAndTweenBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A29C29EB63960036647E /* AnimationWithCurvesAndTweenBootcamp.swift */; };
 		ABF5A29F29EB65FC0036647E /* TransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF5A29E29EB65FC0036647E /* TransitionBootcamp.swift */; };
@@ -85,6 +86,7 @@
 		ABC7129529E6C9E4006E3B6F /* ScrollviewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollviewBootcamp.swift; sourceTree = "<group>"; };
 		ABCDD9BB29F3F23B007F7208 /* VIewModelBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIewModelBootcamp.swift; sourceTree = "<group>"; };
 		ABCDD9BD29F3FC97007F7208 /* EnvironmentBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentBootcamp.swift; sourceTree = "<group>"; };
+		ABCDD9BF29F40665007F7208 /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 		ABDBFF6629E752E900DABE9B /* GridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBootcamp.swift; sourceTree = "<group>"; };
 		ABF5A29C29EB63960036647E /* AnimationWithCurvesAndTweenBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationWithCurvesAndTweenBootcamp.swift; sourceTree = "<group>"; };
 		ABF5A29E29EB65FC0036647E /* TransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionBootcamp.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		AB37EA7929E0B2F1009800D2 /* BootCamp swiftui */ = {
 			isa = PBXGroup;
 			children = (
+				AB37EA7A29E0B2F1009800D2 /* BootCamp_swiftuiApp.swift */,
 				AB76A9BA29E85EF1003B31B1 /* StateBootcamp.swift */,
 				AB76A9B829E8029A003B31B1 /* ButtonsBootcamp.swift */,
 				AB76A9B629E7FD6D003B31B1 /* SafeAreaBootcamp.swift */,
@@ -134,7 +137,6 @@
 				AB37EA8F29E0EA97009800D2 /* ImageBootcamp.swift */,
 				AB37EA8929E0B3A6009800D2 /* GradientsBootcamp.swift */,
 				AB37EA8D29E0E8C6009800D2 /* IconsBootcamp.swift */,
-				AB37EA7A29E0B2F1009800D2 /* BootCamp_swiftuiApp.swift */,
 				AB37EA7C29E0B2F1009800D2 /* ContentView.swift */,
 				AB37EA7E29E0B2F2009800D2 /* Assets.xcassets */,
 				AB37EA8029E0B2F2009800D2 /* BootCamp_swiftui.entitlements */,
@@ -159,6 +161,7 @@
 				ABB78C7929F2E66500497689 /* ToggleBootcamp.swift */,
 				ABCDD9BB29F3F23B007F7208 /* VIewModelBootcamp.swift */,
 				ABCDD9BD29F3FC97007F7208 /* EnvironmentBootcamp.swift */,
+				ABCDD9BF29F40665007F7208 /* AppStorageBootcamp.swift */,
 			);
 			path = "BootCamp swiftui";
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				AB76A9BB29E85EF1003B31B1 /* StateBootcamp.swift in Sources */,
 				AB37EA9229E0ED5E009800D2 /* FrameBootcamp.swift in Sources */,
 				AB37EA7D29E0B2F1009800D2 /* ContentView.swift in Sources */,
+				ABCDD9C029F40665007F7208 /* AppStorageBootcamp.swift in Sources */,
 				AB61C62429ED4DF000542FCE /* NavigationViewBootcamp.swift in Sources */,
 				ABC7129229E6C388006E3B6F /* initBootcamp.swift in Sources */,
 				ABCDD9BC29F3F23B007F7208 /* VIewModelBootcamp.swift in Sources */,
